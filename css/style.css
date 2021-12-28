@@ -1,0 +1,47 @@
+h1 {
+    color:rgb(8, 1, 0);
+}
+
+body {
+    background-color:#fdfdfd;
+    color:#000000;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.main-nav ul {
+    margin: 5px;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.large-image {
+    width: 250px;
+    border-radius: 100px;
+}
+
+.container-fixed {
+    width:1000px;
+    margin: 100px auto;
+}
+
+.box-padder {
+    padding: 30px;
+}
+
+
